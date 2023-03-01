@@ -13,20 +13,28 @@ public class Battle : MonoBehaviour
         new Archer(60,15,0.7f),
         new Dragon(200,30,DamageType.Range)
     };
+    
+    //private Knight _knight = new Knight(100,20,DamageType.Melee,100);
 
     private void Start()
     {
         ShowStats();
 
         StartCoroutine(Fight());
+        
+        print(_warriors[0].GetInfo());
+        _warriors[0].TakeDamage(_warriors[1].Damage);
+        print(_warriors[0].GetInfo());
+        _warriors[0].TakeDamage(_warriors[1].Damage);
+        print(_warriors[0].GetInfo());
     }
 
     private IEnumerator Fight()
     {
-        _warriors[0].TakeDamage(_warriors[1].GetDamage());
-        
         yield return new WaitForSeconds(2);
         
+        _warriors[0].TakeDamage(_warriors[1].Damage);
+
         ShowStats();
     }
 

@@ -1,8 +1,10 @@
 ﻿public class Warrior
 {
     protected int Health;
-    protected int Damage;
     protected DamageType DmgType;
+    
+    public virtual int Damage { get; protected set; }
+    public bool isAlive => Health > 0;
 
     public Warrior(int health, int damage, DamageType dmgType)
     {
@@ -11,14 +13,8 @@
         DmgType = dmgType;
     }
 
-    public void TakeDamage(int damage) => 
+    public virtual void TakeDamage(int damage) => 
         Health -= damage;
-
-    public bool IsAlive() => 
-        Health > 0;
-
-    public int GetDamage() => 
-        Damage;
 
     public string GetInfo() => 
         $"HP: {Health}\nDMG: {Damage}";

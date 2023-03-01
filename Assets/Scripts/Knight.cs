@@ -6,4 +6,13 @@
     {
         _armor = armor;
     }
+
+    public override void TakeDamage(int damage)
+    {
+        damage -= _armor / 4;
+        if (damage > 0)
+            base.TakeDamage(damage);
+        else
+            Health--;
+    }
 }
