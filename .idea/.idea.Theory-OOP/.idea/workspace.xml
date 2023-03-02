@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Warrior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Archer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Knight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/Theory.cs" />
       </list>
     </option>
   </component>
@@ -57,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677572481345</updated>
       <workItem from="1677572491240" duration="5544000" />
+      <workItem from="1677785787651" duration="1279000" />
     </task>
     <servers />
   </component>
@@ -64,5 +66,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1628" y="375" key="RiderGenerateDialog" timestamp="1677786690966">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1628" y="375" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1677786690966" />
   </component>
 </project>
