@@ -20,7 +20,11 @@
             <e p="Warrior.cs" t="Include" />
           </e>
           <e p="Interfaces" t="Include">
-            <e p="Theory.cs" t="Include" />
+            <e p="AbstractionTheory.cs" t="Include" />
+            <e p="InterfacesTheory.cs" t="Include" />
+            <e p="Main.cs" t="Include" />
+            <e p="StaticTheory.cs" t="Include" />
+            <e p="StructuresTheory.cs" t="Include" />
           </e>
         </e>
         <e p="Sprites" t="Include" />

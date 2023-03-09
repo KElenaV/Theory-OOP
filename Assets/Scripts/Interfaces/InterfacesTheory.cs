@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-public class Theory : MonoBehaviour
+public class InterfacesTheory : MonoBehaviour
 {
     IMovable player = new Player();
     IMovable vehicle = new Vehicle();

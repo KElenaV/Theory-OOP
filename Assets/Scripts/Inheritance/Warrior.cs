@@ -1,4 +1,4 @@
-﻿public class Warrior
+﻿public abstract class Warrior
 {
     protected int Health;
     protected DamageType DmgType;
